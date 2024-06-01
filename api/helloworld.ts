@@ -1,5 +1,6 @@
 import { VercelRequest, VercelResponse } from '@vercel/node'
-module.exports = async (req: VercelRequest, res: VercelResponse) => {
+
+export default async (req: VercelRequest, res: VercelResponse) => {
   const data = {
     msg: 'hello world!'
   }

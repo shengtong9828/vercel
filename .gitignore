@@ -1,5 +1,3 @@
-.DS_Store
-
 # Logs
 logs
 *.log
@@ -43,6 +41,11 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+.DS_Store
+dist-ssr
+*.local
+/cypress/videos/
+/cypress/screenshots/
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -130,3 +133,14 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

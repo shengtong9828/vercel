@@ -8,6 +8,9 @@ import { VercelRequest, VercelResponse } from '@vercel/node'
 // }
 
 module.exports = async (req: VercelRequest, res: VercelResponse) => {
+  console.log('req', req)
+  console.log('res', res)
+
   const data = {
     msg: 'hello world!'
   }

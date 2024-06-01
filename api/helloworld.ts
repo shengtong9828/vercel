@@ -12,6 +12,8 @@ module.exports = async (req: VercelRequest, res: VercelResponse) => {
   console.log('res', res)
 
   const data = {
+    req: req,
+    res: res,
     msg: 'hello world!'
   }
   res.status(200).json(data)
